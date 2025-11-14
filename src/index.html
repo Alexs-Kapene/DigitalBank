@@ -28,10 +28,10 @@
         />
       </div>
       <div
-        class="hidden flex-col w-[90%] gap-5 py-10 bg-white absolute top-20 left-1/2 -translate-x-1/2 rounded-md md:flex md:flex-row md:items-center md:justify-center md:w-0 md:static"
+        class="hidden flex-col w-[90%] gap-5 py-10 bg-white absolute top-20 left-1/2 -translate-x-1/2 rounded-md md:flex md:flex-row md:items-center md:justify-center md:w-0 md:static shadow-md"
       >
         <a
-          class="flex items-center justify-center w-full h-12 md:w-15 md:h-10 text-center text-[0.9rem] font-medium pb-1 transition hover:text-gray-600 hover:border-b-2 hover:border-green-500"
+          class="flex items-center justify-center w-full h-12 md:w-15 md:h-10 text-center text-[0.9rem] font-medium pb-1 transition :hover:text-gray-600 hover:border-b-2 hover:border-green-500"
           href="#Home"
           >Home</a
         >
@@ -58,7 +58,7 @@
       </div>
       <!-- Button Request Invite -->
       <button
-        class="hidden md:block max-w-[180px] px-7 py-2 bg-linear-to-b from-green-400 to-blue-400 text-white rounded-full font-medium transition md:mb-0"
+        class="hidden md:block max-w-[180px] px-7 py-2 bg-gradient-to-b from-green-400 to-blue-400 hover:from-green-300 hover:to-blue-300 text-white rounded-full font-medium transition cursor-pointer"
       >
         Request Invite
       </button>
@@ -78,12 +78,12 @@
           class="w-full h-auto mt-15 pb-7 px-13 md:w-1/2 md:px-25 md:mt-0 overflow-y-hidden"
         >
           <h1
-            class="w-full text-4xl font-light leading-10 text-gray-700 md:text-5xl"
+            class="w-full text-4xl font-light leading-10 md:leading-15 text-gray-700 md:text-5xl"
           >
             Next generation <br />digital banking
           </h1>
           <p
-            class="w-full mt-5 text-gray-500 text-[0.8rem] font-medium leading-5 md:text-[1.3rem] md:font-light md:leading-7"
+            class="w-full my-5 md:my-10 text-gray-500 text-[0.8rem] font-medium leading-5 md:text-[1.3rem] md:font-light md:leading-7"
           >
             Take your financial life online. Your Easybank account will be a
             one-stop-shop for spending, saving, budgeting, investing, and much
@@ -91,7 +91,7 @@
           </p>
           <!-- Button Request Invite -->
           <button
-            class="mt-7 max-w-[180px] px-7 py-2 bg-linear-to-b from-green-400 to-blue-400 text-white rounded-full font-medium transition"
+            class="max-w-[180px] px-7 py-2 bg-gradient-to-b from-green-400 to-blue-400 hover:from-green-300 hover:to-blue-300 text-white rounded-full font-medium transition cursor-pointer"
           >
             Request Invite
           </button>
@@ -110,7 +110,7 @@
         </div>
       </section>
 
-      <section class="px-13 py-10 md:p-25 bg-gray-200">
+      <section class="px-13 py-10 md:p-25 bg-gray-100">
         <h2 class="text-4xl text-center md:text-start text-gray-700 font-light">
           Why choose Digitalbank?
         </h2>
@@ -155,7 +155,9 @@
           >
             <img src="./assets/images/icon-budgeting.svg" alt="" />
 
-            <h2 class="text-4xl md:text-3xl text-center text-gray-700 font-light my-8">
+            <h2
+              class="text-4xl md:text-3xl text-center text-gray-700 font-light my-8"
+            >
               Simple Budgeting
             </h2>
 
@@ -171,7 +173,9 @@
           >
             <img src="./assets/images/icon-onboarding.svg" alt="" />
 
-            <h2 class="text-4xl md:text-3xl text-center text-gray-700 font-light my-8">
+            <h2
+              class="text-4xl md:text-3xl text-center text-gray-700 font-light my-8"
+            >
               Fast Onboarding
             </h2>
 
@@ -187,7 +191,9 @@
           >
             <img src="./assets/images/icon-api.svg" alt="" />
 
-            <h2 class="text-4xl md:text-3xl text-center text-gray-700 font-light my-8">
+            <h2
+              class="text-4xl md:text-3xl text-center text-gray-700 font-light my-8"
+            >
               Open API
             </h2>
 
@@ -200,8 +206,166 @@
           </div>
         </div>
       </section>
+
+      <!-- section latest articles -->
+      <section
+        class="flex flex-col justify-center items-center md:items-start w-full h-auto bg-gray-50 p-10 md:p-25"
+      >
+        <h2 class="text-4xl text-gray-700 font-light mb-10">Latest Articles</h2>
+
+        <div
+          class="flex flex-col justify-center items-center w-full h-auto md:flex-row md:justify-start"
+        >
+          <div class="w-full h-auto md:flex md:justify-between gap-5">
+            <div class="w-full h-auto md:w-1/4 mb-10 pb-5 md:mb-0 bg-white">
+              <img
+                class="w-full h-auto object-cover rounded-t-lg"
+                src="./assets/images/image-currency.jpg"
+                alt=""
+              />
+              <div class="w-full h-auto space-y-1 mt-3 pr-10 pl-5">
+                <p class="text-[10px] text-gray-500">By Claire Robinson</p>
+                <p class="text-[1rem] text-gray-700">
+                  Receive money in any currency with no fees
+                </p>
+                <p class="text-[1rem] text-gray-500">
+                  The world is getting smaller and we’re becoming more mobile.
+                  So why should you be forced to only receive money in a single
+                  …
+                </p>
+              </div>
+            </div>
+
+            <div class="w-full h-auto md:w-1/4 mb-10 pb-5 md:mb-0 bg-white">
+              <img
+                class="w-full h-auto object-cover rounded-t-lg"
+                src="./assets/images/image-currency.jpg"
+                alt=""
+              />
+              <div class="w-full h-auto space-y-1 mt-3 pr-10 pl-5">
+                <p class="text-[10px] text-gray-500">By Claire Robinson</p>
+                <p class="text-[1rem] text-gray-700">
+                  Receive money in any currency with no fees
+                </p>
+                <p class="text-[1rem] text-gray-500">
+                  The world is getting smaller and we’re becoming more mobile.
+                  So why should you be forced to only receive money in a single
+                  …
+                </p>
+              </div>
+            </div>
+
+            <div class="w-full h-auto md:w-1/4 mb-10 pb-5 md:mb-0 bg-white">
+              <img
+                class="w-full h-auto object-cover rounded-t-lg"
+                src="./assets/images/image-currency.jpg"
+                alt=""
+              />
+              <div class="w-full h-auto space-y-1 mt-3 pr-10 pl-5">
+                <p class="text-[10px] text-gray-500">By Claire Robinson</p>
+                <p class="text-[1rem] text-gray-700">
+                  Receive money in any currency with no fees
+                </p>
+                <p class="text-[1rem] text-gray-500">
+                  The world is getting smaller and we’re becoming more mobile.
+                  So why should you be forced to only receive money in a single
+                  …
+                </p>
+              </div>
+            </div>
+
+            <div class="w-full h-auto md:w-1/4 mb-10 pb-5 md:mb-0 bg-white">
+              <img
+                class="w-full h-auto object-cover rounded-t-lg"
+                src="./assets/images/image-currency.jpg"
+                alt=""
+              />
+              <div class="w-full h-auto space-y-1 mt-3 pr-10 pl-5">
+                <p class="text-[10px] text-gray-500">By Claire Robinson</p>
+                <p class="text-[1rem] text-gray-700">
+                  Receive money in any currency with no fees
+                </p>
+                <p class="text-[1rem] text-gray-500">
+                  The world is getting smaller and we’re becoming more mobile.
+                  So why should you be forced to only receive money in a single
+                  …
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <!-- Scripts Js -->
+
+    <!-- Footer -->
+    <footer
+      class="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between w-full h-auto bg-gray-800 text-gray-300 p-13 md:p-25"
+    >
+      <!-- Logo + icons -->
+      <div class="flex flex-col gap-5">
+        <img src="./assets/images/logo-light.svg" alt="Logo" />
+
+        <div class="flex gap-4">
+          <img
+            class="cursor-pointer"
+            src="./assets/images/icon-facebook.svg"
+            alt=""
+          />
+          <img
+            class="cursor-pointer"
+            src="./assets/images/icon-youtube.svg"
+            alt=""
+          />
+          <img
+            class="cursor-pointer"
+            src="./assets/images/icon-twitter.svg"
+            alt=""
+          />
+          <img
+            class="cursor-pointer"
+            src="./assets/images/icon-instagram.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- Links group 1 -->
+      <div
+        class="flex flex-col items-center md:items-start justify-center md:justify-start gap-2 mt-5 md:mt-0"
+      >
+        <a class="hover:text-green-600 transition" href="#">About Us</a>
+        <a class="hover:text-green-600 transition" href="#">Contact</a>
+        <a class="hover:text-green-600 transition" href="#">Blog</a>
+      </div>
+
+      <!-- Links group 2 -->
+      <div
+        class="flex flex-col items-center md:items-start justify-center md:justify-start gap-2 my-2 md:my-0"
+      >
+        <a class="hover:text-green-600 transition cursor-pointer" href="#"
+          >Careers</a
+        >
+        <a class="hover:text-green-600 transition cursor-pointer" href="#"
+          >Support</a
+        >
+        <a class="hover:text-green-600 transition cursor-pointer" href="#"
+          >Privacy Policy</a
+        >
+      </div>
+
+      <!-- Button + rights -->
+      <div class="flex flex-col items-center md:items-end gap-5 mt-5 md:mt-0">
+        <button
+          class="max-w-[180px] px-7 py-2 bg-gradient-to-b from-green-400 to-blue-400 hover:from-green-300 hover:to-blue-300 text-white rounded-full font-medium transition cursor-pointer"
+        >
+          Request Invite
+        </button>
+        <p class="text-[8px] text-gray-400">
+          @Digitalbank. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
     <script src="./scripts/scripts.js"></script>
   </body>
 </html>
